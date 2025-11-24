@@ -19,6 +19,7 @@ module.exports = defineConfig({
     screenshotsFolder: 'cypress/screenshots',
     chromeWebSecurity: false,
     experimentalModifyObstructiveThirdPartyCode: true,
+    chromeWebSecurity: false,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
